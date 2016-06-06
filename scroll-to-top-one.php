@@ -27,7 +27,7 @@ if (!function_exists('stto_register_style')) {
       $buttonStyle = $abGen->getField('abOption_cPage_sTTO', 'tab1', 'buttonStyle');
         $buttonStyle = (!empty($buttonStyle)) ? $buttonStyle : 0;
         $buttonSize = $abGen->getField('abOption_cPage_sTTO', 'tab1', 'buttonSize');
-        $buttonSize = (!empty($buttonSize)) ? $buttonSize : '32x32';
+        $buttonSize = (!empty($buttonSize)) ? $buttonSize : '32';
         $colorpicker1 = $abGen->getField('abOption_cPage_sTTO', 'tab1', 'colorpicker1');
         $colorpicker1 = (!empty($colorpicker1)) ? $colorpicker1 : '#000';
 
