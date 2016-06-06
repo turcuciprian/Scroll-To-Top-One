@@ -4,3 +4,13 @@ a.stoContainer{
   bottom:30px;
   z-index:1000;
 }
+a.stoContainer.round{
+  -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+a.stoContainer.rEdges{
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
