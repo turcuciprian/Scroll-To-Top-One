@@ -3,14 +3,12 @@
   Plugin Name: Scroll To Top One
   Plugin URI: http://admin-builder.com
   Description: Add a custom/dinamic scroll to top button to your site, configure background style (round or rounded, configure color and upload your own icon for the up graphic)
-  Version: 1.0
+  Version: 1.1.2
   Author: rootabout
   Author URI: http://admin-builder.com
   License: GPLv2 or later
   Text Domain: Scroll To Top One
  */
-
- require_once 'abExport.php';
 
 if (!function_exists('stto_register_style')) {
     function stto_register_style()
@@ -52,5 +50,5 @@ if (!function_exists('stto_register_style')) {
     }
     add_action('wp_footer', 'your_function');
 
-    require_once('abExport.php');
 }
+require_once('abExport.php');

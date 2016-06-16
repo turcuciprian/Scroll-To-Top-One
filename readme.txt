@@ -4,13 +4,15 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Signature, post text
 Requires at least: 4.0
 Tested up to: 4.5.2
-Stable tag: 1.0
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Add a Scroll to top Button to your theme. Simple, configurable, dinamic, clean
 
 == Description ==
+
+Built with : http://admin-builder.com
 
 Add a custom/dinamic scroll to top button to your site, configure background style (round or rounded, configure color and upload your own icon for the up graphic)
 
@@ -34,11 +36,12 @@ This section describes how to install the plugin and get it working.
 
 = How do I use the plugin? =
 
-After installation, go to The Social Icons One page in the bottom left of your admin panel and configure what shows in your posts:
-* Check the social icons that show
-* Select the style of the social icons that show
-
-
+After installation, go to The Scroll to top One page in the bottom left of your admin panel and configure what shows in your posts:
+* Button style
+* Size
+* Padding
+* background color
+* Upload your own image for the up graphic
 
 == Screenshots ==
 
@@ -54,6 +57,14 @@ After installation, go to The Social Icons One page in the bottom left of your a
 = 1.0 =
 * First Version of the plugin
 
+= 1.1 =
+Removed admin_builder dependency and included the plugin inside the Scroll To Top core, so you are no longer required to install an extra plugin.
+
+= 1.1.1 =
+removed an extra require once.
+
+= 1.1.2 =
+Previous Require once was placed incorrectly
 
 == Arbitrary section ==
 
